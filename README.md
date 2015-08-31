@@ -1,4 +1,4 @@
-# [Check it out](http://www.esecules.github.io)
+# [Check it out](http://esecules.github.io)
 
 # [Start Bootstrap](http://startbootstrap.com/) -
 [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
