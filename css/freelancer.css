@@ -8,27 +8,52 @@
     border-color: #000000;
 }
 
-.specialties{
-    padding: 1px;
-    margin: 5px;
+#specialties,
+#wip {
+    display: inline;
+    list-style: none;
+}
+
+.specialty {
+    width: 60px;
+    height: 20px;
     background-color: #a0a0a0;
     border-radius: 10px;
-    color: #161616
-
+    color: #161616;
+    display: inline;
 }
+
 .specialties:hover,
 .specialties:focus,
 .specialties:active,
-.specialties.active{
+.specialties.active {
     background-color: #686868;
 
 }
-.specialties h3 h4{
+
+.specialty h3 h4 {
     color: #161616;
 }
-.specialties i h4{
+
+.specialty img h4 {
     display: inline;
 }
+
+.specialty i h4 {
+    display: inline;
+}
+
+.my-icon {
+    padding: 5px 10px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 10px #000000;
+    -webkit-box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px #000000;
+}
+
 body {
     overflow-x: hidden;
 }
