@@ -177,6 +177,17 @@
                     Kubernetes
                 </h4>
             </div>
+            <div class="col-md-2 specialties">
+                <h4>
+                    <img src="img/asm.png">
+                    Assembly
+                </h4>
+            </div>
+            <div class="col-md-2 specialties">
+                <h4>
+                    <img src="img/vhdl.jpg">
+                </h4>
+            </div>
         </div>
         <div class="row text-center">
             <h4>Work In Progress</h4>
@@ -216,11 +227,11 @@
 
 </section>
 <!-- Portfolio Grid Section -->
-<section id="portfolio">
+<section id="portfolio" class="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
+                <h2>Technical Projects</h2>
                 <hr class="star-primary">
             </div>
         </div>
@@ -242,9 +253,11 @@
                     <div class="caption">
                         <div class="caption-content">
                             <i class="fa fa-search-plus fa-3x"></i>
+
+                            <p>UBC Course Scheduler</p>
                         </div>
                     </div>
-                    <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                    <img src="img/portfolio/ubc_course_scheduler_main.jpg" class="img-responsive" alt="">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -252,12 +265,25 @@
                     <div class="caption">
                         <div class="caption-content">
                             <i class="fa fa-search-plus fa-3x"></i>
+
+                            <p>Augmented Reality Tic Tac Toe</p>
                         </div>
                     </div>
-                    <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    <img src="img/portfolio/ttt.png" class="img-responsive" alt="">
                 </a>
             </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
 
+                            <p>Pong ASIC</p>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/pong.png" class="img-responsive" alt="">
+                </a>
+            </div>
         </div>
     </div>
 </section>
@@ -265,40 +291,40 @@
 
 <!-- Footer -->
 <section id="contact">
-<footer class="text-center">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4 col-md-offset-4">
-                    <h3>Want to know more?</h3>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://github.com/esecules" class="btn-social btn-outline"><i
-                                    class="fa fa-fw fa-github"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/pub/eric-secules/71/b9/818"
-                               class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="mailto:esecules@gmail.com"
-                               class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
-                        </li>
-                    </ul>
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4 col-md-offset-4">
+                        <h3>Want to know more?</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/esecules" class="btn-social btn-outline"><i
+                                        class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/pub/eric-secules/71/b9/818"
+                                   class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:esecules@gmail.com"
+                                   class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer-below">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    Copyright &copy; Eric Secules 2015
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Eric Secules 2015
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </section>
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top page-scroll visible-xs visible-sm">
@@ -324,6 +350,21 @@
                         <hr class="star-primary">
                         <img src="img/portfolio/personal-webpage.jpg" class="img-responsive img-centered" alt="">
 
+                        <div class="row text-center">
+                            <h4>Specialties Used</h4>
+
+                            <div class="col-md-3 specialties">
+                                <h3>
+                                    <i class="devicon-html5-plain colored"><h4> HTML 5 </h4></i>
+                                </h3>
+                            </div>
+
+                            <div class="col-md-3 specialties">
+                                <h3>
+                                    <i class="devicon-bootstrap-plain colored"><h4> Bootstrap </h4></i>
+                                </h3>
+                            </div>
+                        </div>
                         <p>I used the Bootstrap theme "United" from <a href="https://bootswatch.com/" target="_blank">Bootswatch</a>
                             as a base for me to customize the look and feel of this page. The largest customization to
                             the theme was the in my about section where I highlight my skills.
@@ -349,28 +390,59 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>UBC Course Scheduler</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/ubc_course_scheduler_main.jpg" class="img-responsive img-centered"
+                             alt="">
+                        <img src="img/portfolio/ubc_course_scheduler_cal_full.jpg" class="img-responsive img-centered"
+                             alt="">
 
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
-                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
-                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
-                            only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
-                        </ul>
+                        <div class="row text-center">
+                            <h4>Specialties Used</h4>
+
+                            <div class="col-md-3 specialties">
+                                <h3>
+                                    <i class="devicon-python-plain colored"><h4> Python </h4></i>
+                                </h3>
+                            </div>
+                            <div class="col-md-3 specialties">
+                                <h3>
+                                    <i class="devicon-docker-plain colored "><h4> Docker </h4></i>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="text-justify">
+                            <ul>
+                                <li>
+                                    I worked as part of a team to develop a more user-friendly way for UBC students to
+                                    plan their course schedules.
+                                </li>
+                                <li>The goal was to build a tool where a student can enter the
+                                    courses he/she needs and then be able to play around with which sections of the
+                                    course fit their schedule.
+                                </li>
+                                <li>
+                                    For the next release we plan to add an auto-scheduler which uses a genetic algorithm
+                                    to find a good schedule based on input criteria like walking distance and preferred
+                                    hours.
+                                </li>
+
+                                <li>
+                                    I am responsible for the backend service that obtains the course information to be
+                                    presented on the front end. When a user enters a course to add to their timetable,
+                                    the client makes an ajax call back to my server's REST API. From there the server
+                                    gathers the course information, packages it nicely in JSON and relays it back to the
+                                    client.
+                                </li>
+
+                                <li>I chose to use Docker to package up the backend because I would be able to have a
+                                    consistent and controlled environment for development and it would be easy to deploy
+                                    to AWS once we get to that stage
+                                </li>
+                            </ul>
+
+                        </div>
+
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
                             Close
                         </button>
@@ -390,38 +462,66 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-md-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Augmented Reality Tic Tac Toe</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1wxLDPYLN_g?rel=0"
+                                frameborder="0" allowfullscreen></iframe>
+                        <div class="row text-center">
+                            <h4>Specialties Used</h4>
 
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
-                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
-                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
-                            only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-                            Close
-                        </button>
+                            <div class="col-md-3 specialties">
+                                <h3>
+                                    <i class="devicon-python-plain colored"><h4> Python </h4></i>
+                                </h3>
+                            </div>
+                            <div class="col-md-3 specialties">
+                                <h3>
+                                    <i class="devicon-c-plain colored"><h4> C </h4></i>
+                                </h3>
+                            </div>
+                            <div class="col-md-3 specialties">
+                                <h4>
+                                    <img src="img/asm.png">
+                                    Assembly
+                                </h4>
+                            </div>
+                            <div class="col-md-3 specialties">
+                                <h4>
+                                    <img src="img/vhdl.jpg">
+                                </h4>
+                            </div>
+                        </div>
+
+                        <div class="text-justify">
+                            <ul>
+                                <li>Wrote image detection code in Python using OpenCV for a group project where a
+                                    computer plays tic-tac-toe against a human using a camera. The image was
+                                    received on
+                                    a DE2board and processed on a Raspberry Pi
+                                </li>
+                                <li>Wrote the image transfer code for the above project in C so that communication
+                                    between
+                                    the boards could be as fast as possible (26 kBps)
+                                </li>
+                                <li>Diagnosed and debugged problems across VHDL, C and Python in order to transfer
+                                    images
+                                    between an analogue camera through a DE2 board and into a JPG file on a
+                                    raspberry pi
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                        Close
+                    </button>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
@@ -435,114 +535,39 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Pong ASIC</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4u70hxVs3Ng?rel=0"
+                                frameborder="0" allowfullscreen></iframe>
+                        <div class="row text-center">
+                            <h4>Specialties Used</h4>
 
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
-                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
-                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
-                            only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-                            Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Project Title</h2>
-                        <hr class="star-primary">
-                        <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
-                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
-                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
-                            only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-                            Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Project Title</h2>
-                        <hr class="star-primary">
-                        <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set
-                            by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can
-                            download their free set with 16 icons, or you can purchase the entire set with 146 icons for
-                            only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
-                        </ul>
+                            <div class="col-md-3 specialties">
+                                <h4>
+                                    <img src="img/vhdl.jpg">
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="text-left">
+                            <ul>
+                                <li>My lab partner and I designed a four player version of pong in VHDL that can be
+                                    played on an Altera DE2 board with a VGA display
+                                </li>
+                                <li>I was responsible for designing the state machine which was responsible for moving
+                                    the players and the puck, detecting and reacting to collisions, and keeping score
+                                </li>
+                                <li>One of the main challenges of this project was hit detection. The problem was that
+                                    whenever the puck hit one of the paddles, it stick to that paddle until the user
+                                    changed its direction
+                                </li>
+                                <ul>
+                                    <li>This turned out to be a timing issue between the hit detection module and the
+                                        state machine. To solve it I converted the hit detection module from a
+                                        sequential circuit to a combinatorial one.
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
                             Close
                         </button>
