@@ -192,6 +192,10 @@ header .intro-text .skills {
     letter-spacing: 1px;
 }
 
+.navbar .resume {
+    background-color: #686868;
+}
+
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
