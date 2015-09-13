@@ -30,6 +30,7 @@
 .specialties i h4{
     display: inline;
 }
+
 body {
     overflow-x: hidden;
 }
@@ -71,10 +72,14 @@ hr.star-primary {
     border-top: solid 5px;
     text-align: center;
 }
+hr.star-primary:hover:after,
+hr.star-light:hover:after {
+    content: "\f259"
+}
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f164";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -86,6 +91,7 @@ hr.star-primary:after {
 hr.star-light {
     border-color: #fff;
 }
+
 
 hr.star-light:after {
     color: #fff;
@@ -195,6 +201,8 @@ header .intro-text .skills {
 .navbar .resume {
     background-color: #686868;
 }
+
+
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
@@ -310,8 +318,8 @@ section.portfolio{
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #7d3526;
+    border: solid 2px #ff4027;
+    color: #ff4027;
     background: #fff;
 }
 
@@ -496,4 +504,10 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.source-link{
+    color: #7d3526;
+    border-color: #7d3526;
+    margin-bottom: 10px;
 }
